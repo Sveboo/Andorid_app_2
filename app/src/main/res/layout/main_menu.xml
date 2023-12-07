@@ -1,0 +1,14 @@
+<!-- res/menu/main_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_change_font_size"
+        android:title="Change Font Size"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:onClick="showChangeFontSizeDialog" />
+
+    <!-- Добавьте другие элементы меню, если нужно -->
+
+</menu>
